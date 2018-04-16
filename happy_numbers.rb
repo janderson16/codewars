@@ -14,6 +14,7 @@ def is_happy(n, counter = 0)
   end
   is_happy(num, counter +=1)
 end
+
 describe "Given a positive integer" do
   it "checks for happy/sad nums" do
 
